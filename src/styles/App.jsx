@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 * {
-  margin: 0;
+  position: relative;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -15,7 +16,6 @@ html {
 body {
   font-weight: 400;
   overflow-x: hidden;
-  position: relative;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

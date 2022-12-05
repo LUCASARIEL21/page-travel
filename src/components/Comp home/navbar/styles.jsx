@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const navbar = styled.div`
-  position: relative;
   width: 100%;
   height: 12vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #435adb;
+  position: relative;
+  top: 0;
+  z-index: 9999;
 `;
 
 export const logo = styled.div`
